@@ -1,1 +1,162 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
+  <title>Vanguard Comics | Hero Gear and Collectibles</title>
+  <link  rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <p class="loader" id="loader">
+    <div class="spinner"></div>
+    <span class="loader-text">LOADING<span>.</span><span></span>.<span></span>.</span></p>
+   </div>
+
+   <header clsss="site-header">
+    <a href="#home" class="logo"><span class="logo-bolt">&#9733;</span> VANGUARD</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle manu">&#9776;</button>
+    <nav class="nav" id="nav">
+      <a href="#home" style="--i:1">Home</a>
+      <a href="#featured" style="--i:2">Featured</a>
+      <a href="#origin" style="--i:3">Origin</a>
+      <a href="#join" style="--i:4">Join</a>
+    </nav>
+
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <span class="shape s1"></span>
+      <span class="shape s2"></span>
+      <span class="shape s3"></span>
+      <span class="shape s4"></span>
+      <span class="halftone"></span>
+  
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">NEW SEASON &bull; ISSUE #1</p>
+      <h1 class="hero-title">Gear Up.<br><span>Be The Hero.</span></h1>
+      <p class="hero-sub">Capes, cowls, collectibles and first-edition comics from the heroes of Metro Haven.</p>
+      <a href="#featured" class="btn btn-pulse">Shop The Collection</a>
+    </div>
+    <div class="burst" aria-hidden="true">POW!</div>
+
+  </section>
+
+  <section class="featured" id="featured">
+    <div class="section-head">
+    <span class="skew-bar"></span>
+    <h2>Featured Gear</h2>
+    <span class="skew-bar"></span>
+    </div>
+
+  <div class="grid">
+    <article class="card" style="--d:0.1s">
+      <div class="icon-badge">&#129415;</div>
+      <div class="card-art art-blue"></div>
+      <h3>Midnight Sentinel Cowl</h3>
+      <p>Matte-black armored cowl with sculpted ears and a tactical visor.</p>
+      <div class="card-foot"><span class="1,299</span><a href="#" class="btn btn-small">Add</a></div>
+    </article>
+
+    <article class="card" style="--d:0.2s">
+      <div class="icon-badge">&#9728;</div>
+      <div class="card-art art-yellow"></div>
+      <h3>Solar Guardian Cape</h3>
+      <p>Heavyweight crimson cape with a gold-stitched sunburst crest.</p>
+      <div class="card-foot"><span class="price">R899</span><a href="#" class="btn btn-small">Add</a></div>
+      </article>
+
+    <article class="card" style="--d:0.4s">
+      <div class="icon-badge">&#128170;</div>
+      <div class="card-art art-blue"></div>
+      <h3>Skyforge Hero Statue</h3>
+      <p>12-inch hand-painted resin statue of the Skyforge defender in flight.</p>
+      <div class="card-foot"><span class="price">R2,499</span><a href="#" class="btn btn-small">Add</a></div>
+    </article>
+  
+    <article class="card" style="--d:0.5s">
+      <div class="icon-badge">&#128214;</div>
+      <div class="card-art art-yellow"></div>
+      <h3>Origin Issue #1</h3>
+      <p>First-print collector's edition, bagged and boarded with a holo cover.</p>
+      <div class="card-foot"><span class="price">R349</span><a href="#" class="btn btn-small">Add</a></div>
+    </article>
+
+    <article class="card" style="--d:0.6s">
+      <div class="icon-badge">&#128161;</div>
+      <div class="card-art art-red"></div>
+      <h3>Hero Signal Lamp</h3>
+      <p>Desk lamp that projects the Vanguard star onto your wall or ceiling.</p>
+      <div class="card-foot"><span class="price">R699</span><a href="#" class="btn btn-small">Add</a></div>
+    </article>
+  </div>
+  </section>
+
+  <section class="origin" id="origin">
+    <div class="origin-inner">
+      <h2>Born In Metro Haven</h2>
+      <p>Every piece is designed by fans of the golden age of comics, with bold colors, honest materials and a little bit of legend.</p>
+    </div>
+
+  
+  </section>
+
+  <section class="join" id="join">
+    <h2>Join The Vanguard</h2>
+    <p>Get early access to drops, signed issues and secret-identity discounts.</p>
+    <a href="#" class="btn btn-pulse btn-light">Sign Me Up</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Vanguard Comics. An original fan-style shop concept. All heroes fictional.</p>
+  </footer>
+
+  <script>
+
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        document. getElementById ('loader').classList.add('hidden');
+        document.body.classList.add('ready');
+      }, 900);
+    });
+
+    document.getElementById('menuToggle').addEventListener('click', function () {
+      document.getElementById('nav').classList.toggle('open');
+    });
+  </script>
+
+
+   
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
